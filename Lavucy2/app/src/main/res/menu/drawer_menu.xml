@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_client"
+            android:icon="@drawable/ic_client"
+            android:title="Clientes"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_product"
+            android:icon="@drawable/ic_product"
+            android:title="Produtos"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_stock"
+            android:icon="@drawable/ic_stock"
+            android:title="Estoque"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_sales"
+            android:icon="@drawable/ic_sales"
+            android:title="Vendas"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_cashier"
+            android:icon="@drawable/ic_cashier"
+            android:title="Meu Caixa"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_report"
+            android:title="Relatórios"
+            tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_request"
+            android:icon="@drawable/ic_request"
+            android:title="Lista de Pedidos"
+            tools:ignore="HardcodedText" />
+
+    </group>
+
+    <item android:title=" ">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Configurações"
+                tools:ignore="HardcodedText" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help"
+                android:title="Ajuda"
+                tools:ignore="HardcodedText" />
+        </menu>
+    </item>
+
+</menu>

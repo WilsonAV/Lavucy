@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CadProdutoAct">
+
+    <EditText
+        android:id="@+id/txtCodigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txtCodigo"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/txtNomeProd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txtNomeProd"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txtMarca"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txtCategoria"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtTamanho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txtTamanho"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtQuantodade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txtQuantidade"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtPrecoCusto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txtPrecoCusto"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtPrecoVenda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txtPrecoVenda"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtDescricaoProd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/txtDescricaoProd"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnCadProd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCadastrar" />
+</LinearLayout>
